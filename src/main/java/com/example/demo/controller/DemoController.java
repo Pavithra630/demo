@@ -20,6 +20,7 @@ import com.example.demo.repository.DemoRepository;
 @RequestMapping("/demo")
 public class DemoController {
 	@Autowired
+	
 	private DemoRepository demoRepository;
 	
 	@GetMapping("/getDetails")
